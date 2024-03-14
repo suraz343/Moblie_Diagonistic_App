@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MDT</string>
+    <string name="memory_storage"><![CDATA[Memory & Storage]]></string>
+    <string name="battery_status">Battery Status</string>
+    <string name="sound_vibration"><![CDATA[Sound & Vibration]]></string>
+    <string name="camera_test">Camera Test</string>
+    <string name="sensor_details">Sensor Details</string>
+    <string name="network_signals">Network Signals</string>
+    <string name="software_details">Software Details</string>
+    <string name="mobile_info">Mobile Info</string>
+</resources>

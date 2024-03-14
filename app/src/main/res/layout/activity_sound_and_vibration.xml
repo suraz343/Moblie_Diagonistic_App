@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B4162"
+    tools:context=".SoundAndVibrationActivity">
+
+    <!-- Sound Volume -->
+    <TextView
+        android:id="@+id/soundVolumeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Volume"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <SeekBar
+        android:id="@+id/soundVolumeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soundVolumeLabel"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:progress="50"/>
+
+    <!-- Vibration Intensity -->
+    <TextView
+        android:id="@+id/vibrationIntensityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibration Intensity"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_below="@id/soundVolumeSeekBar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <SeekBar
+        android:id="@+id/vibrationIntensitySeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vibrationIntensityLabel"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:progress="50"/>
+
+    <!-- Check Sound Button -->
+    <Button
+        android:id="@+id/checkSoundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vibrationIntensitySeekBar"
+        android:layout_centerHorizontal="true"
+        android:text="Check Sound"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
